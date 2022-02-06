@@ -1,0 +1,40 @@
+.Sidebar-Container {
+  display: flex;
+  flex-direction: column;
+  padding: 47px;
+  height: 90vh;
+
+  color: #090f31;
+}
+
+.Title {
+  font-weight: bold;
+  font-family: "Open Sans";
+  margin-bottom: 122px;
+}
+
+.Title span:first-child {
+  color: #f7542e;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-family: "Open Sans";
+  width: 7%;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: #9e9e9e;
+}
+
+.nav a.ative {
+  color: #090f31;
+}

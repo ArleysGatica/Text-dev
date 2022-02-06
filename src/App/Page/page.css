@@ -1,0 +1,16 @@
+.Page-Container {
+  width: 1519px;
+  display: flex;
+  align-items: center;
+}
+
+.Container-Button {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-top: -90%;
+}
