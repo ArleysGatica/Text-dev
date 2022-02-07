@@ -4,13 +4,14 @@
   align-items: center;
 }
 
-.Container-Button {
-  width: 400px;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 20%;
-  margin-top: -90%;
+.groupButton {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
 }
