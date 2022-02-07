@@ -1,11 +1,6 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { InputPage } from "../Components/Input/inputt";
 import App from "../Page/page";
 
 export function app() {
@@ -13,9 +8,8 @@ export function app() {
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/Buttons" element={<App />} />
-        <Route index element={<App />} />
-
+        <Route path="/Inputs" element={<InputPage />} />
+        <Route index element={<InputPage />} />
         <Route path="*" element={<h1 className="notFound">404</h1>} />
       </Routes>
     </Router>
